@@ -190,6 +190,7 @@ type PrintData = {
   allergy: string;
   type_q: string;
   age: string;
+  userconfirms: string;
   item: Item[];
 };
 
@@ -302,6 +303,8 @@ function printTemplate(printer: any, data: PrintData) {
   printer.println(`โรงพยาบาลศูนย์อุดรธานี`);
   printer.println(`วันที่: ${date} ${time}`);
 
+  printer.println('');
+  printer.println(`ผู้ยืนยัน:${data.userconfirms.trim()}`);
   printer.println('');
   printer.println(`เภสัชผู้ตรวจสอบ:....................`);
   printer.println('');

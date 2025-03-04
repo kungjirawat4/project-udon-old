@@ -104,10 +104,14 @@ export const GET = async (_req: NextRequest) => {
               // const queuetypesC = ['000', '0101', '019', '031', '032', '040', '0411', '042', '043', '045', '046', '049', '050', '0501', '0503', '0504', '0506', '0508', '052', '053', '054', '055', '056', '057', '058', '059', '0591', '060', '061', '070', '071', '110', '124', '135'].includes(item.deptCode?.trim()) ? 'C' : Qtype;
               // // const prescripStatus = ['A', 'B', 'C', 'D'].includes(Qtype) ? process.env.NEXT_STATUS1 : process.env.NEXT_STATUS0;
               // const queuetypesD = ['090', '091'].includes(item.deptCode?.trim()) ? 'D' : Qtype;
+              // const finalQueueType = ['090', '091'].includes(item.deptCode?.trim())
+              //   ? 'D'
+              //   : (['000', '0101', '019', '031', '032', '040', '0411', '042', '043', '045', '046', '049', '050', '0501', '0503', '0504', '0506', '0508', '052', '053', '054', '055', '056', '057', '058', '059', '0591', '060', '061', '070', '071', '110', '124', '135'].includes(item.deptCode?.trim()) ? 'C' : Qtype);
+              // const prescripStatus = ['A', 'B', 'C', 'D'].includes(Qtype) ? 'รอจับคู่ตะกร้า' : 'จ่ายยาสำเร็จ';
               const finalQueueType = ['090', '091'].includes(item.deptCode?.trim())
                 ? 'D'
-                : (['000', '0101', '019', '031', '032', '040', '0411', '042', '043', '045', '046', '049', '050', '0501', '0503', '0504', '0506', '0508', '052', '053', '054', '055', '056', '057', '058', '059', '0591', '060', '061', '070', '071', '110', '124', '135'].includes(item.deptCode?.trim()) ? 'C' : Qtype);
-              const prescripStatus = ['A', 'C', 'D'].includes(Qtype) ? 'รอจับคู่ตะกร้า' : 'จ่ายยาสำเร็จ';
+                : (['000', '001', '0101', '019', '031', '032', '040', '0411', '042', '043', '045', '046', '049', '050', '0501', '0503', '0504', '0506', '0508', '052', '053', '054', '055', '056', '057', '058', '059', '0591', '060', '061', '070', '071', '110', '124', '135'].includes(item.deptCode?.trim()) ? 'C' : Qtype);
+              const prescripStatus = ['A', 'B', 'C', 'D'].includes(Qtype) ? 'รอจับคู่ตะกร้า' : 'จ่ายยาสำเร็จ';
               let firstIssTime7 = matchingDetails[0]?.firstIssTime || null;
 
               if (firstIssTime7) {
@@ -138,6 +142,7 @@ export const GET = async (_req: NextRequest) => {
                   //  ${item.alergyNote?.trim() || ''}
                   // firstIssTime: matchingDetails[0]?.firstIssTime || null,
                   firstIssTime: firstIssTime7 || null,
+                  // userconfirm: matchingDetails[0]?.userConfirm,
                   arranged: {
                     create: await Promise.all(matchingDetails.map(async (detail: any, index: number) => {
                       const medicine = await db.medicine.findUnique({
