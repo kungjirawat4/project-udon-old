@@ -1,0 +1,277 @@
+{
+  "RootLayout": {
+    "title": "UDH",
+    "home_link": "Home",
+    "about_link": "About",
+    "counter_link": "Counter",
+    "portfolio_link": "Portfolio",
+    "sign_in_link": "Sign in",
+    "sign_up_link": "Sign up"
+  },
+  "BaseTemplate": {
+    "description": "Starter code for your Nextjs Boilerplate with Tailwind CSS",
+    "made_with": "Made with"
+  },
+  "Index": {
+    "meta_title": "Next.js Boilerplate Presentation",
+    "meta_description": "Next js Boilerplate is the perfect starter code for your project. Build your React application with the Next.js framework.",
+    "sponsors_title": "Sponsors"
+  },
+  "Counter": {
+    "meta_title": "Counter",
+    "meta_description": "An example of DB operation",
+    "loading_counter": "Loading counter...",
+    "error_reporting_powered_by": "Error reporting powered by"
+  },
+  "CounterForm": {
+    "presentation": "The counter is stored in the database and incremented by the value you provide.",
+    "label_increment": "Increment by",
+    "button_increment": "Increment"
+  },
+  "CurrentCount": {
+    "count": "Count: {count}"
+  },
+  "About": {
+    "meta_title": "About",
+    "meta_description": "About page description",
+    "about_paragraph": "Welcome to our About page! We are a team of passionate individuals dedicated to creating amazing software.",
+    "translation_powered_by": "Translation powered by"
+  },
+  "Portfolio": {
+    "meta_title": "Portfolio",
+    "meta_description": "Welcome to my portfolio page!",
+    "presentation": "Welcome to my portfolio page! Here you will find a carefully curated collection of my work and accomplishments. Through this portfolio, I'm to showcase my expertise, creativity, and the value I can bring to your projects.",
+    "portfolio_name": "Portfolio {name}",
+    "error_reporting_powered_by": "Error reporting powered by",
+    "coverage_powered_by": "Code coverage powered by"
+  },
+  "PortfolioSlug": {
+    "meta_title": "Portfolio {slug}",
+    "meta_description": "Portfolio {slug} description",
+    "header": "Portfolio {slug}",
+    "content": "Created a set of promotional materials and branding elements for a corporate event. Crafted a visually unified theme, encompassing a logo, posters, banners, and digital assets. Integrated the client's brand identity while infusing it with a contemporary and innovative approach. Garnered favorable responses from event attendees, resulting in a successful event with heightened participant engagement and increased brand visibility.",
+    "log_management_powered_by": "Log management powered by"
+  },
+  "SignIn": {
+    "meta_title": "ลงชื่อเข้าใช้",
+    "meta_description": "Seamlessly sign in to your account with our user-friendly login process."
+  },
+  "SignUp": {
+    "meta_title": "สมัครสมาชิก",
+    "meta_description": "Effortlessly create an account through our intuitive sign-up process."
+  },
+  "Dashboard": {
+    "meta_title": "แดชบอร์ด",
+    "hello_message": "Hello {email}!"
+  },
+  "UserProfile": {
+    "meta_title": "โปรไฟล์ผู้ใช้"
+  },
+  "DashboardLayout": {
+    "dashboard_link": "แดชบอร์ด",
+    "user_profile_link": "Manage your account",
+    "sign_out": "Sign out"
+  },
+  "Error": {
+    "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
+    "title": "มีบางอย่างผิดปกติ!"
+  },
+  "NotFoundPage": {
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
+    "title": "ไม่พบหน้าเพจ"
+  },
+  "Login": {
+    "title": "ยินดีต้อนรับกลับ",
+    "description": "กรุณาเข้าสู่ระบบเพื่อดำเนินการต่อ",
+    "remember_me": "Remember me",
+    "success": "เข้าสู่ระบบสำเร็จแล้ว!",
+    "no_account": "ยังไม่มีบัญชีใช่ไหม?",
+    "signup": "สมัครสมาชิก",
+    "not_register": "ผู้ใช้ยังไม่ได้ลงทะเบียน!",
+    "invalid": "ข้อมูลประจำตัวไม่ถูกต้อง!",
+    "username": "ชื่อผู้ใช้",
+    "password": "รหัสผ่าน",
+    "submit": "เข้าสู่ระบบ",
+    "error": "{error, select, CredentialsSignin {Invalid username or password} other {Unknown error}}"
+  },
+  "ForgotPassword": {
+    "title": "ลืมรหัสผ่าน",
+    "description": "กรุณากรอกอีเมล์เพื่อรีเซ็ตรหัสผ่าน",
+    "success": "ลิงค์รีเซ็ตรหัสผ่านส่งไปยังอีเมล์ของคุณแล้ว",
+    "back_to_login": "กลับไปยังหน้าเข้าสู่ระบบ"
+  },
+  "Common": {
+    "email": "อีเมล์",
+    "password": "รหัสผ่าน",
+    "login": "เข้าสู่ระบบ",
+    "signup": "สมัครสมาชิก",
+    "forgot_password": "ลืมรหัสผ่าน",
+    "submit": "ส่ง",
+    "total_revenue": "รายได้รวม",
+    "subscriptions": "การสมัครสมาชิก",
+    "sales": "ฝ่ายขาย",
+    "active_users": "ผู้ใช้งานที่ใช้งานอยู่",
+    "recent_sales": "Recent Sales",
+    "dashboard": "ยอดขายล่าสุด",
+    "download": "ดาวน์โหลด",
+    "sales_overview": "ภาพรวมการขาย",
+    "password_confirmation": "การยืนยันรหัสผ่าน",
+    "username": "ชื่อผู้ใช้",
+    "full_name": "ชื่อ-นามสกุล",
+    "next": "ต่อไป",
+    "previous": "ก่อนหน้า",
+    "created_at": "วันที่",
+    "action": "การกระทำ",
+    "search": "ค้นหา",
+    "note": "บันทึก"
+  },
+  "Metadata": {
+    "default_title": "ผู้ดูแลระบบ",
+    "default_description": "คำอธิบายเริ่มต้นของไซต์",
+    "login_page_title": "เข้าสู่ระบบ",
+    "login_page_description": "เข้าสู่ระบบแดชบอร์ด",
+    "signup_page_title": "สมัครสมาชิก",
+    "signup_page_description": "ลงทะเบียนบนแพลตฟอร์มของเรา",
+    "forgot_password_page_title": "ลืมรหัสผ่าน",
+    "forgot_password_page_description": "หน้าลืมรหัสผ่าน"
+  },
+  "Table": {
+    "view": "มุมอง",
+    "status": "สถานะ",
+    "priority": "Priority",
+    "reset": "รีเซ็ต",
+    "rows_per_page": "จำนวนแถวต่อหน้า",
+    "row_selected": "แถวที่เลือก",
+    "page": "หน้า",
+    "go_to_first_page": "ไปที่หน้าแรก",
+    "go_to_previous_page": "ไปยังหน้าก่อนหน้า",
+    "go_to_next_page": "ไปยังหน้าถัดไป",
+    "go_to_last_page": "ไปยังหน้าสุดท้าย",
+    "no_results_found": "ไม่พบผลลัพธ์.",
+    "clear_filters": "เคลียร์ ข้อมูล",
+    "selected": "เลือกแล้ว",
+    "of": "ของ",
+    "toggle_columns": "มุมองคอลัมน์",
+    "edit": "แก้ไข",
+    "add": "เพิ่ม",
+    "del": "ลบ",
+    "close": "ปิด",
+    "save": "บันทึก",
+    "save_edit": "บันทึกการแก้ไข",
+    "del_alert_title": "คุณแน่ใจมั้ย?",
+    "del_alert_message": "การดำเนินการนี้ไม่สามารถย้อนกลับได้ การดำเนินการนี้จะลบข้อมูลของคุณออกจากฐานข้อมูลอย่างถาวร",
+    "del_alert_cancel": "ยกเลิก",
+    "del_alert_continue": "ดำเนินการต่อ"
+  },
+  "Drug": {
+    "drug": "ยา",
+    "drug_code": "โค๊ดยา",
+    "drug_image": "รูปภาพ",
+    "drug_name": "ชื่อยา",
+    "drug_name_en": "ชื่อยาภาษาอังกฤษ",
+    "drug_amount": "จำนวน",
+    "drug_generic": "ชื่อสามัญ",
+    "drug_properties": "คุณสมบัติ",
+    "drug_method": "วิธีใช้",
+    "drug_method_en": "วิธีใช้ภาษาอังกฤษ",
+    "drug_condition": "เงื่อนไข",
+    "drug_unit_eating": "หน่วยยาการกิน",
+    "drug_unit_eating_en": "หน่วยยาการกินภาษาอังกฤษ",
+    "drug_frequency": "ความถี่",
+    "drug_frequency_en": "ถวามถี่ภาษาอังกฤษ",
+    "drug_advice": "คำแนะนำ",
+    "drug_advice_en": "คำแนะนำภาษาอังกฤษ",
+    "drug_warning": "คำเตือน",
+    "drug_label": "ฉลาก",
+    "drug_supplement": "ฉลากเสริม",
+    "drug_unit": "หน่วยยา",
+    "drug_packing_size": "ขนาดบรรจุ"
+  },
+  "Prescription": {
+    "prescription": "ใบสั่งยา",
+    "hn": "HN",
+    "vn": "VN",
+    "name": "ชื่อ-นามสกุล",
+    "queue": "คิวที่",
+    "queue_num": "คิวโรบอท",
+    "queue_type": "ประเภทคิว",
+    "amount": "จำนวน",
+    "service_charge": "ค่าบริการ",
+    "price": "ราคา",
+    "delivery": "สถานที่",
+    "total_amount": "ยอดรวม",
+    "status": "สถานะ",
+    "basket": "ตะกร้า",
+    "urgent": "ด่วน"
+  },
+  "Screening": {
+    "screening": "การคัดกรอง",
+    "hn": "HN",
+    "vn": "VN",
+    "name": "ชื่อ-นามสกุล",
+    "queue": "คิวที่",
+    "queue_num": "คิวโรบอท",
+    "queue_type": "ประเภทคิว",
+    "amount": "จำนวน",
+    "service_charge": "ค่าบริการ",
+    "price": "ราคา",
+    "delivery": "สถานที่",
+    "total_amount": "ยอดรวม",
+    "status": "สถานะ",
+    "basket": "ตะกร้า",
+    "urgent": "ด่วน"
+  },
+  "Doublecheck": {
+    "doublecheck": "การตรวจสอบ",
+    "hn": "HN",
+    "vn": "VN",
+    "name": "ชื่อ-นามสกุล",
+    "queue": "คิวที่",
+    "queue_num": "คิวโรบอท",
+    "queue_type": "ประเภทคิว",
+    "amount": "จำนวน",
+    "service_charge": "ค่าบริการ",
+    "price": "ราคา",
+    "delivery": "สถานที่",
+    "total_amount": "ยอดรวม",
+    "status": "สถานะ",
+    "basket": "ตะกร้า",
+    "urgent": "ด่วน"
+  },
+  "Meddrug": {
+    "meddrug": "อัพเดทยา",
+    "hn": "HN",
+    "vn": "VN",
+    "name": "ชื่อ-นามสกุล",
+    "queue": "คิวที่",
+    "queue_num": "คิวโรบอท",
+    "queue_type": "ประเภทคิว",
+    "amount": "จำนวน",
+    "service_charge": "ค่าบริการ",
+    "price": "ราคา",
+    "delivery": "สถานที่",
+    "total_amount": "ยอดรวม",
+    "status": "สถานะ",
+    "basket": "ตะกร้า",
+    "urgent": "ด่วน"
+  },
+  "Cabinet": {
+    "cabinet": "ตู้ยา",
+    "cabinet_size": "ขนาด",
+    "mqtt_topic": "Topic Mqtt",
+    "station": "สถานียา",
+    "location": "ที่ตั้งยา",
+    "position": "ตำแหน่งยา",
+    "user_level": "ระดับผู้ใช้",
+    "note": "บันทึก"
+  },
+  "Basket": {
+    "basket": "ตะกร้า",
+    "qr_code": "QR CODE",
+    "basket_color": "สีตะกร้า",
+    "basket_status": "สถานะตะกร้า",
+    "basket_type": "ประเภทตะกร้า",
+    "basket_floor": "ชั้น",
+    "note": "บันทึก"
+  }
+}
