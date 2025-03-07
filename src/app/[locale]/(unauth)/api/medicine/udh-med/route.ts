@@ -142,7 +142,8 @@ export const GET = async (_req: NextRequest) => {
                   //  ${item.alergyNote?.trim() || ''}
                   // firstIssTime: matchingDetails[0]?.firstIssTime || null,
                   firstIssTime: firstIssTime7 || null,
-                  // userconfirm: matchingDetails[0]?.userConfirm,
+                  userconfirm: matchingDetails[0]?.userConfirm,
+                  confirmTime: matchingDetails[0]?.lastConfirm,
                   arranged: {
                     create: await Promise.all(matchingDetails.map(async (detail: any, index: number) => {
                       const medicine = await db.medicine.findUnique({
